@@ -1,6 +1,5 @@
 import React from "react";
-import img from "./img.jpg";
-
+import Project from "./Project";
 // We declare an object called styles that will contain a few objects for card and heading styles
 // Notice that each key lists CSS styles in camel case
 const styles = {
@@ -15,6 +14,7 @@ const styles = {
     fontSize: "2rem",
     color: "white",
     padding: "0 20px",
+    textAlign: "center",
   },
   content: {
     padding: 20,
@@ -22,14 +22,14 @@ const styles = {
     lineHeight: 2,
     fontFamily: "Arial",
     fontSize: "1.25rem",
-    color: "grey",
+    color: "#333",
   },
-  imageContainer: {
-    marginRight: 20,
-  },
+
   image: {
-    width: 200,
-    borderRadius: "50%",
+    width: 400,
+    backgroundSize: "contain",
+    float: "left",
+    paddingRight: "3%",
   },
 };
 
@@ -41,7 +41,12 @@ function AboutMe() {
       <div style={styles.heading}>&#127799; About me &#127799;</div>
       <div style={styles.content}>
         <p>
-          <img src={img} alt="Image" style={styles.img} class="rounded" />
+          <img
+            src={process.env.PUBLIC_URL + "/img.jpg"}
+            alt="Kateryna Stetsenko"
+            style={styles.image}
+            className="rounded"
+          />
           Hi, my name is Kateryna Stetsenko, and I am a passionate and
           experienced full-stack developer. With a strong background in creating
           startups and managing projects, I bring a wealth of expertise to the
@@ -57,6 +62,9 @@ function AboutMe() {
           environments and am eager to take on new challenges that push the
           boundaries of my skills. driving technological advancements.
         </p>
+      </div>
+      <div>
+        <Project />
       </div>
     </div>
   );

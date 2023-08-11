@@ -14,14 +14,14 @@ import {
 const styles = {
   footer: {
     background: "#333",
-    color: "white",
+    color: "#fff",
     padding: "20px 0",
     textAlign: "center",
   },
   icon: {
     margin: "0 10px",
-    color: "white",
     fontSize: "1.5rem",
+    transition: "color 0.3s",
   },
 };
 
@@ -29,7 +29,11 @@ function Footer() {
   return (
     <footer style={styles.footer}>
       <p>Contact me:</p>
-      <a href="mailto:itcreativeusa@gmail.com" style={styles.icon}>
+      <a
+        href="mailto:itcreativeusa@gmail.com"
+        className="icons"
+        style={styles.icon}
+      >
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
       <a href="tel:+4152318910" style={styles.icon}>
