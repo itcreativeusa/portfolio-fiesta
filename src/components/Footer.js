@@ -1,11 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+// Import a few of the font awesome icons for footer
 import {
   faLinkedin as fabLinkedin,
   faGithub as fabGithub,
 } from "@fortawesome/free-brands-svg-icons";
-//footer component with social media links
+//Footer component with social media links
 const styles = {
   footer: {
     background: "#333",
@@ -20,7 +20,7 @@ const styles = {
     color: "#fff",
   },
 };
-//footer component with social media links
+//Footer component with social media links
 function Footer() {
   return (
     <footer style={styles.footer}>
