@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap");
-
+/* header */
 .header {
   background-color: #663dff;
   background-image: linear-gradient(
@@ -8,7 +8,6 @@
     #aa00ff 37%,
     #cc4499 100%
   );
-
   height: 200px;
   background-size: cover;
 }
@@ -21,10 +20,11 @@
   color: white;
   font-size: 3rem;
 }
+/*Body*/
 body {
   font-family: "Montserrat", sans-serif;
 }
-
+/*Navbar*/
 .navbar-nav {
   margin: 0 auto;
 }
@@ -41,6 +41,7 @@ body {
   color: #98fb98;
   text-shadow: 2px 2px magenta;
 }
+/*Github Link*/
 #githubLink {
   background-color: black;
   border: white 1px solid;
@@ -50,7 +51,6 @@ body {
   color: #000;
   border: black 1px solid;
 }
-
 .navbar-nav {
   margin-top: 0;
 }
