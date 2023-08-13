@@ -20,7 +20,6 @@ const styles = {
     padding: 20,
     minHeight: 50,
     lineHeight: 2,
-    fontFamily: "Arial",
     fontSize: "1.25rem",
     color: "#333",
   },
@@ -54,13 +53,13 @@ function AboutMe() {
           development from Berkeley Bootcamp, equipping me with a diverse skill
           set. I am driven by my commitment to deliver exceptional user
           experiences and contribute to technological advancements. I excel in
-          utilizing tools and technologies such as Node.js, SQL, JavaScript,
-          APIs, HTML, CSS, and Git. My goal is to develop innovative and
-          scalable web applications that make a meaningful impact. As a
-          full-stack developer, I am equally comfortable working on the frontend
-          and backend aspects of projects. I thrive in collaborative
-          environments and am eager to take on new challenges that push the
-          boundaries of my skills. driving technological advancements.
+          utilizing tools and technologies such as Node.js, SQL, MongoDB,
+          JavaScript, React, APIs, HTML, CSS, and Git. My goal is to develop
+          innovative and scalable web applications that make a meaningful
+          impact. As a full-stack developer, I am equally comfortable working on
+          the frontend and backend aspects of projects. I thrive in
+          collaborative environments and am eager to take on new challenges that
+          push the boundaries of my skills. driving technological advancements.
         </p>
       </div>
       <div>

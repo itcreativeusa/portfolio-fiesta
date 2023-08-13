@@ -54,11 +54,14 @@ body {
 .navbar-nav {
   margin-top: 0;
 }
+.card-body {
+  position: relative;
+}
 
 .card-body:hover {
   box-shadow: inset 0px 0px 20px #333, 0 0 40px #333;
   -webkit-filter: brightness(120%);
   filter: brightness(120%);
   transition-duration: 0.5s;
-  background-color: #663dff;
+  background-color: #cc4499;
 }

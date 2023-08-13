@@ -7,7 +7,7 @@ const styles = {
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    background: `url("./grass-2.jpg")`,
+    background: `url("./menu-bg.jpg")`,
     backgroundSize: "contain",
     backgroundRepeat: "repeat",
     minHeight: "300px",
@@ -31,7 +31,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/project-all">
-                Projects
+                All projects
               </Link>
             </li>
             <li className="nav-item">
@@ -40,9 +40,9 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#resume">
+              <Link className="nav-link" to="/resume">
                 Resume
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
