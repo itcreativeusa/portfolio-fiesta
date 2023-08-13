@@ -1,4 +1,4 @@
-# portfolio-fiestaç
+# portfolio-fiesta
 
 ## Description
 
@@ -22,7 +22,7 @@ Appllication contain: title About Me, Portfolio, Contact, and Resume, and the ti
 
 ## Installation
 
-N/A
+N/Anpn
 
 ## Requirements
 
@@ -35,8 +35,7 @@ Open Github Pages link in your preferred web browser.
 ## Screenshots
 
 Screenshot located in `./img/` folder
-![Text editor](img/Screenshot.png)
-![Install application](img/Screenshot-2.png)
+![About me page screenshot](./img/screenshot.png)
 
 ## Credits
 
