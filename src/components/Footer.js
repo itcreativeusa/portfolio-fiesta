@@ -17,7 +17,6 @@ const styles = {
     margin: "0 10px",
     fontSize: "1.5rem",
     transition: "color 0.3s",
-    color: "#fff",
   },
   iconHover: {},
 };
@@ -31,7 +30,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
         style={styles.icon}
-        id="hover"
+        id="linkedin"
       >
         <FontAwesomeIcon icon={fabLinkedin} />
       </a>
@@ -40,6 +39,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
         style={styles.icon}
+        id="github"
       >
         <FontAwesomeIcon icon={fabGithub} />
       </a>
