@@ -63,3 +63,6 @@ body {
   transition-duration: 0.5s;
   background-color: #cc4499;
 }
+#hover {
+  color: #663dff;
+}
