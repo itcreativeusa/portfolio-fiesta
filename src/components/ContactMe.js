@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-//contact me component with contact form and contact info
+//Contact me component with contact form and contact info
 const ContactMe = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  //function to handle form submit
+  //Function to handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
-    //if name, email, or message is empty, alert user to fill out the form
+    //If name, email, or message is empty, alert user to fill out the form
     if (name.trim() === "") {
       alert("Please enter your name.");
       return;
@@ -25,7 +25,7 @@ const ContactMe = () => {
 
     console.log("Form submitted!");
   };
-  //return contact me component with contact form and contact info
+  //Return contact me component with contact form and contact info
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h2>Contact Me</h2>
