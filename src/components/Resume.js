@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-// styles for the resume page
+//Styles for the resume page
 const styles = {
   container: {
     marginTop: "2rem",
@@ -50,9 +50,9 @@ const styles = {
     marginBottom: "1rem",
   },
 };
-//resume component that will be used to display the resume page
+//Resume component that will be used to display the resume page
 const Resume = () => {
-  //returning the resume page
+  //Returning the resume page
   return (
     <Container style={styles.container}>
       <div style={styles.nameSection}>
