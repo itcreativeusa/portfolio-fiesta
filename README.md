@@ -14,7 +14,7 @@ Appllication contain: title About Me, Portfolio, Contact, and Resume, and the ti
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Technologies used](#technologies-used)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
 - [Credits](#credits)
@@ -22,11 +22,15 @@ Appllication contain: title About Me, Portfolio, Contact, and Resume, and the ti
 
 ## Installation
 
-N/Anpn
+Clone the repo and run `npm install` in the root directory to install the dependencies. To use the application locally, run `npm start` in the root directory and navigate to http://localhost:3000 in your browser. The page will reload if you make edits.
 
-## Requirements
+## Technologies Used
 
-N/A
+- React
+- React-DOM
+- React-Scripts
+- Bootstrap
+- gh-pages
 
 ## Usage
 
