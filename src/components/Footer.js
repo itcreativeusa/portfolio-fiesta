@@ -19,6 +19,7 @@ const styles = {
     transition: "color 0.3s",
     color: "#fff",
   },
+  iconHover: {},
 };
 //Footer component with social media links
 function Footer() {
@@ -30,6 +31,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
         style={styles.icon}
+        id="hover"
       >
         <FontAwesomeIcon icon={fabLinkedin} />
       </a>
