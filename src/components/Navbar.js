@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// styles for the navibar
 const styles = {
   heading: {
     display: "flex",
@@ -17,7 +17,7 @@ const styles = {
     fontWeight: "600",
   },
 };
-
+// navbar component with links to other pages
 function Navbar() {
   return (
     <div style={styles.heading}>

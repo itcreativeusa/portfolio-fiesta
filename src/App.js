@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
+// import components for the app pages, navbar and footer components
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
@@ -7,7 +8,7 @@ import Footer from "./components/Footer";
 import ContactMe from "./components/ContactMe";
 import ProjectsAll from "./components/ProjectsAll";
 import Resume from "./components/Resume";
-
+// import css file for the app styles
 function App() {
   return (
     <Router>
@@ -25,7 +26,7 @@ function App() {
     </Router>
   );
 }
-
+// export the app component
 const AboutMeWithProject = () => {
   return (
     <div>

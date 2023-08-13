@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+//card component with project information
 const cardData = [
   {
     title: "work-wiz",
@@ -87,7 +87,7 @@ const cardData = [
     githubLink: "https://github.com/itcreativeusa/link-minds",
   },
 ];
-
+//styles for the card component and the button
 const styles = {
   card: {
     margin: 20,
@@ -143,7 +143,7 @@ const styles = {
     boxSizing: "borderBox",
   },
 };
-
+//card component that will be used to display the project cards
 function Project() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   return (
