@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Style.css";
 
 function Header() {
+  // Returning the header component with the title
   return (
     <header className="header">
       <h1>Kateryna's Stetsenko Portfolio &#128640;</h1>
