@@ -38,8 +38,8 @@ body {
   text-shadow: 2px 2px white;
 }
 .nav-link:hover {
-  color: #98fb98;
-  text-shadow: 2px 2px magenta;
+  color: magenta;
+  text-shadow: 2px 2px black;
 }
 /*Github Link*/
 #githubLink {
@@ -63,5 +63,5 @@ body {
 }
 #linkedin:hover,
 #github:hover {
-  color: #98fb98;
+  color: #0abab5;
 }
