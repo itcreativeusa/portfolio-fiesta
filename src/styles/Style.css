@@ -46,6 +46,10 @@ body {
   background-color: black;
   border: white 1px solid;
 }
+#githubLink:hover {
+  background-color: green;
+  border: white 1px solid;
+}
 
 .navbar-nav {
   margin-top: 0;
