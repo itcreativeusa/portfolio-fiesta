@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-fiesta/static/css/main.4e356e9a.css",
-    "main.js": "/portfolio-fiesta/static/js/main.b1175372.js",
+    "main.js": "/portfolio-fiesta/static/js/main.79196194.js",
     "index.html": "/portfolio-fiesta/index.html",
     "main.4e356e9a.css.map": "/portfolio-fiesta/static/css/main.4e356e9a.css.map",
-    "main.b1175372.js.map": "/portfolio-fiesta/static/js/main.b1175372.js.map"
+    "main.79196194.js.map": "/portfolio-fiesta/static/js/main.79196194.js.map"
   },
   "entrypoints": [
     "static/css/main.4e356e9a.css",
-    "static/js/main.b1175372.js"
+    "static/js/main.79196194.js"
   ]
 }
