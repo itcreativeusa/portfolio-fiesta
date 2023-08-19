@@ -48,7 +48,8 @@ body {
 }
 #githubLink:hover {
   background-color: #44cc77;
-  border: white 1px solid;
+  border: black 1px solid;
+  color: black;
 }
 
 .navbar-nav {
