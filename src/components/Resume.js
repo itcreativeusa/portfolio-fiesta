@@ -34,14 +34,13 @@ const styles = {
     lineHeight: "1.5",
   },
   downloadButton: {
-    color: "white",
-    border: "none",
     padding: "10px 20px",
     borderRadius: "5px",
     fontSize: "1rem",
     cursor: "pointer",
     textDecoration: "none",
     marginTop: "20px",
+    border: "1px solid #007bff",
   },
   nameSection: {
     display: "flex",
