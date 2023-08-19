@@ -56,10 +56,9 @@ body {
 /*hover effect*/
 .card-body:hover {
   box-shadow: inset 0px 0px 20px #333, 0 0 40px #333;
-  -webkit-filter: brightness(120%);
-  filter: brightness(120%);
+  transition: 0.5s;
   transition-duration: 0.5s;
-  background-color: darkslategrey;
+  background-color: #008080;
 }
 #linkedin:hover,
 #github:hover {
