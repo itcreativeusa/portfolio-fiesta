@@ -25,7 +25,7 @@ const styles = {
 function CustomNavbar() {
   return (
     <div style={styles.heading}>
-      <Navbar expand="lg" variant="light" bg="light">
+      <Navbar expand="lg" variant="light">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
