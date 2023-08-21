@@ -41,7 +41,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/resume">
-                Resume
+                My resume
               </Link>
             </li>
           </ul>
