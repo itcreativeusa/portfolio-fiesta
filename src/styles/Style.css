@@ -34,6 +34,9 @@
   color: black;
 }
 
+.navbar-toggler {
+  margin-top: 20px;
+}
 .nav-link:hover {
   color: magenta;
   text-shadow: 2px 2px black;
