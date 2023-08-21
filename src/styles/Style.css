@@ -21,15 +21,13 @@
   font-size: 3rem;
 }
 
-/*Body*/
-body {
-  font-family: "Montserrat", sans-serif;
-}
+/* Body styles */
 
-/*Navbar*/
+/* Navbar styles */
 .navbar-nav {
   margin: 0 auto;
 }
+
 .navbar {
   width: 100%;
 }
@@ -45,7 +43,7 @@ body {
   text-shadow: 2px 2px black;
 }
 
-/*Github Link*/
+/* Github Link styles */
 #githubLink {
   background-color: black;
   border: white 1px solid;
@@ -57,15 +55,11 @@ body {
   color: black;
 }
 
-.navbar-nav {
-  margin-top: 0;
-}
-
+/* Card styles */
 .card-body {
   position: relative;
 }
 
-/*hover effect*/
 .card-body:hover {
   box-shadow: inset 0px 0px 20px #333, 0 0 40px #333;
   transition: 0.5s;
@@ -79,11 +73,11 @@ body {
   color: #cc4499;
 }
 
-/* Add media queries for responsive styles */
+/* Media Queries */
 
 /* Styles for larger screens */
 @media (min-width: 768px) {
-  /* Header */
+  /* Header styles */
   .header {
     height: 300px;
   }
@@ -92,11 +86,12 @@ body {
     font-size: 4rem;
   }
 
-  /* Navbar */
+  /* Navbar styles */
   .navbar-nav {
-    margin: 0 auto;
-    text-align: center; /* Center align for smaller screens */
+    display: flex;
+    justify-content: center;
   }
+
   .nav-item {
     padding: 10px 0;
   }
@@ -104,7 +99,7 @@ body {
 
 /* Styles for smaller screens (mobile) */
 @media (max-width: 767px) {
-  /* Header */
+  /* Header styles */
   .header {
     height: 150px;
   }
@@ -112,11 +107,7 @@ body {
     padding-top: 50px;
     font-size: 2rem;
   }
-  /* Navbar */
-  .navbar-nav {
-    margin: 0 auto;
-    text-align: center; /* Center align for smaller screens */
-  }
+
   .nav-item {
     padding: 10px 0;
   }

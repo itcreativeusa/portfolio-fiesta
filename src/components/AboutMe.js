@@ -17,7 +17,7 @@ const styles = {
     textAlign: "center",
   },
   content: {
-    padding: 20,
+    padding: 50,
     minHeight: 50,
     lineHeight: 2,
     fontSize: "1.25rem",
@@ -25,7 +25,7 @@ const styles = {
   },
 
   image: {
-    width: 400,
+    width: 350,
     backgroundSize: "contain",
     float: "left",
     paddingRight: "3%",
