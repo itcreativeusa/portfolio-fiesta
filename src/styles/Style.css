@@ -37,7 +37,7 @@ body {
 .nav-link {
   text-decoration: underline;
   text-shadow: 2px 2px white;
-  color: blacknpm;
+  color: black;
 }
 
 .nav-link:hover {
