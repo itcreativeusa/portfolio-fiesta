@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import { Navbar, Nav } from "react-bootstrap";
 import "../styles/Style.css"; // Import your custom styles
 
 const styles = {
@@ -21,48 +22,30 @@ const styles = {
   },
 };
 
-function Navbar() {
+function CustomNavbar() {
   return (
     <div style={styles.heading}>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                About Me
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/project-all">
-                All projects
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact Me
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/resume">
-                My resume
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar expand="lg" variant="light" bg="light">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link as={Link} to="/">
+              About Me
+            </Nav.Link>
+            <Nav.Link as={Link} to="/project-all">
+              All projects
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact Me
+            </Nav.Link>
+            <Nav.Link as={Link} to="/resume">
+              My resume
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
 
-export default Navbar;
+export default CustomNavbar;
