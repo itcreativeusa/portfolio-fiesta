@@ -17,7 +17,6 @@ const styles = {
     lineHeight: "1.5",
     height: "300px",
     fontSize: "2rem",
-    color: "magenta",
     fontWeight: "600",
   },
 };
