@@ -31,6 +31,9 @@ body {
 .navbar-nav {
   margin: 0 auto;
 }
+.navbar {
+  width: 100%;
+}
 
 .nav-link {
   text-decoration: underline;
