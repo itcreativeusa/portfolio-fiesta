@@ -70,3 +70,74 @@ body {
 #github:hover {
   color: #cc4499;
 }
+
+/* Add media queries for responsive styles */
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    height: 300px;
+  }
+  .header h1 {
+    padding-top: 100px;
+    font-size: 4rem;
+  }
+  /* Navbar */
+  .navbar-nav {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-item {
+    padding: 0 20px;
+  }
+}
+
+/* Add media queries for responsive styles */
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  /* Header */
+  .header {
+    height: 300px;
+  }
+  .header h1 {
+    padding-top: 100px;
+    font-size: 4rem;
+  }
+  /* Navbar */
+  .navbar-nav {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav-item {
+    padding: 0 20px;
+  }
+}
+
+/* Styles for smaller screens (mobile) */
+@media (max-width: 767px) {
+  /* Header */
+  .header {
+    height: 150px;
+  }
+  .header h1 {
+    padding-top: 50px;
+    font-size: 2rem;
+  }
+  /* Navbar */
+  .navbar-nav {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #663dff;
+  }
+  .nav-item {
+    padding: 10px 0;
+  }
+  .nav-link {
+    color: white;
+  }
+}

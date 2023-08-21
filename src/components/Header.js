@@ -10,6 +10,10 @@ function Header() {
   return (
     <header className="header">
       <h1>Kateryna's Stetsenko Portfolio &#128640;</h1>
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+      ></meta>
     </header>
   );
 }
