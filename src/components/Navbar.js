@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "../styles/Style.css"; // Import your custom styles
 
 const styles = {
   heading: {
