@@ -118,12 +118,8 @@ body {
   .navbar-nav {
     margin: 0 auto;
     text-align: center; /* Center align for smaller screens */
-    background-color: #663dff;
   }
   .nav-item {
     padding: 10px 0;
-  }
-  .nav-link {
-    color: white;
   }
 }
