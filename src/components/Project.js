@@ -151,7 +151,7 @@ function Project() {
       <div style={styles.heading}>&#127799; Some of my projects &#127799;</div>
       <div className="row" style={{ margin: 20 }}>
         {cardData.map((card, index) => (
-          <div key={index} className="col-md-6">
+          <div key={index} className="col-md-12 col-lg-6 col-sm-12">
             <div
               className="card mb-4"
               style={{

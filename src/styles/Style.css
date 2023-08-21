@@ -71,7 +71,6 @@
 
 /* Media Queries */
 
-/* Styles for larger screens */
 @media (min-width: 768px) {
   /* Header styles */
   .header {
@@ -106,9 +105,5 @@
 
   .nav-item {
     padding: 10px 0;
-  }
-
-  .col-md-6 {
-    width: 0 auto;
   }
 }
